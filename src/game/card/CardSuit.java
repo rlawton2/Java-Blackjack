@@ -7,4 +7,14 @@ package game.card;
 /**
  * This enumeration will serve as the suit of a playing card.
  */
-public enum CardSuit {Diamonds, Spades, Clubs, Hearts}
+public enum CardSuit {DIAMONDS("Diamonds"), SPADES("Spades"), CLUBS("Clubs"), 
+        HEARTS("Hearts");
+    private String name;
+
+    CardSuit(String name) {
+        this.name = name;
+    }
+    public String toString() {
+        return name;
+    }
+}

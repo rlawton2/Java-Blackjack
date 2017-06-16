@@ -25,11 +25,11 @@ public class Card {
 //  Method to add a value to each card onject created    
     public static int calcCardValue(CardFace cf) {
         switch(cf) {
-            case Ace:
+            case ACE:
                 return 11;
-            case Jack:
-            case Queen:
-            case King:
+            case JACK:
+            case QUEEN:
+            case KING:
                  return 10;
             default:
                  return cf.ordinal() + 1;   // all other cards there position in

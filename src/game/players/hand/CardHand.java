@@ -5,14 +5,14 @@
 package game.players.hand;
 
 import game.card.Card;
-import java.util.ArrayList;
+import java.util.*;
 
 /*
  * The CardHand class represents the cards dealt to a player. 
  */
 public class CardHand {
     
-    private ArrayList<Card> handOfCards;        // Collection of cards dealt
+    private List<Card> handOfCards;        // Collection of cards dealt
     private boolean bust;                       // Bool var if card value over 21
     private int total;                          // Var to hold card value
 //  Constructor to initialize the handOfCards collection    
