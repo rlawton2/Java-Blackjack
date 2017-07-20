@@ -1,5 +1,5 @@
 # Java Blackjack
-![alt text](https://raw.githubusercontent.com/rlawton2/Factory-Example/master/Banner1.png)
+![alt text](https://raw.githubusercontent.com/rlawton2/Java-Blackjack/master/Banner4.png)
 
 ## Description
 A simple game of blackjack that pits you against the dealer.
